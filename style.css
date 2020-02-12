@@ -1,0 +1,127 @@
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size:40px;
+  font-weight: 200;
+  color: #2F243A;
+  text-align: center;
+  padding: 0px;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size:35px;
+  color: #444054;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#profile-pic {
+ width: 284px;
+ padding: 10px 10px 40px 10px;
+ border: 1px solid #BFBFBF;
+ background-color: white;
+ box-shadow: 7px 7px 4px #aaaaaa;
+ margin: 40px;
+ margin-top: 10px;
+}
+
+
+.btn {
+  background-color: #BC4B51;
+  margin: 20px;
+  padding: 14px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0, 0.5);
+}
+
+.btn:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #808080;
+}
+
+
+.card {
+  background-color: #6C969D;
+  text-align: center;
+  margin: 25px auto;
+  padding: 40px;
+  width: 80%;
+  box-shadow: 0 10px 30px rgba(0,0,0, 0.5);
+  border-radius: 2%;
+}
+
+
+body {
+  background-image: url("https://picsum.photos/id/307/5760/3840");
+  margin: 0;
+}
+
+#banner{
+  background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url("https://picsum.photos/id/423/5184/3456");
+  padding: 32px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin: 0;
+  height: 600px;
+}
+
+
+
+
+.list-inline {
+  text-align: center;
+  padding: 10;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+
+.footer {
+  background-color: #715B64;
+  color: #A7FFF6;
+  padding: 50px;
+}
+
+.footer a {
+  color: #271033;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.footer a:hover {
+  color: #A7FFF6
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
