@@ -75,12 +75,8 @@ p {
 body {
   background-image: url("https://picsum.photos/id/307/5760/3840");
   margin: 0;
-  background-color: red;
+  background-color: white;
 }
-
-
-
-
 
 .list-inline {
   text-align: center;
