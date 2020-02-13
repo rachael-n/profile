@@ -42,6 +42,18 @@ p {
   box-shadow: 0 10px 30px rgba(0,0,0, 0.5);
 }
 
+#banner{
+  background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url("https://picsum.photos/id/423/5184/3456");
+  padding: 32px 0;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin: 0;
+  height: 600px;
+}
+
+
 .btn:hover {
   opacity: 1;
   text-decoration: none;
@@ -63,17 +75,9 @@ p {
 body {
   background-image: url("https://picsum.photos/id/307/5760/3840");
   margin: 0;
+  background-color: red;
 }
 
-#banner{
-  background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url("https://picsum.photos/id/423/5184/3456");
-  padding: 32px 0;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  margin: 0;
-  height: 600px;
-}
 
 
 
@@ -104,6 +108,10 @@ body {
   color: #A7FFF6
 }
 
+#quote{
+  color: #A7FFF6;
+  font-size: 12px;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
